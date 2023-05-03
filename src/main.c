@@ -23,3 +23,6 @@ int main(int ac, char **av)
         winner = play_game(&board, av, &ia);
     return winner;
 }
+
+
+//vero
