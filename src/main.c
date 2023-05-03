@@ -20,7 +20,7 @@ int main(int ac, char **av)
     if (ac != 3)
         return 84;
     if (my_getnbr(av[1]) > 1 && my_getnbr(av[1]) < 100)
-        winner = play_gdekame(&board, av, &ia);
+        
     winner = play_game(&board, av, &ia);
     return winner;
 }
