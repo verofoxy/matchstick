@@ -23,7 +23,3 @@ int main(int ac, char **av)
         winner = play_gdekame(&board, av, &ia);
     return winner;
 }
-
-
-//eronia
-//vishal
